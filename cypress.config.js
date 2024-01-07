@@ -1,9 +1,11 @@
-const { defineConfig } = require("cypress");
-
-module.exports = defineConfig({
+module.exports = {
   e2e: {
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
+    //baseUrl: "https://gorest.co.in"
+    baseUrl: "http://jsonplaceholder.typicode.com"
+    // baseUrl: "https://restful-booker.herokuapp.com"
+    // baseUrl: "https://dummy.restapiexample.com"
+    //baseUrl: "https://reqres.in"
+    
+  
   },
-});
+};
