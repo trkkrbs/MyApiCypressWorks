@@ -1,0 +1,12 @@
+{
+    "statuscode": 200,
+    "firstname": "Sally",
+    "lastname": "Ericsson",
+    "totalprice": 501,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-10-09",
+        "checkout": "2023-11-14"
+    },
+    "additionalneeds": "Breakfast"
+}
