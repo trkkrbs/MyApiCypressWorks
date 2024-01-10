@@ -53,4 +53,4 @@ describe("GET REquest Method", () => {
             expect(actualData.bookingdates.checkout).to.eq(this.expectedData.bookingdates.checkout);
         })
     })  
-})
+}) 
